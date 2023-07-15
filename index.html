@@ -13,7 +13,10 @@
         }
         #hello,#get,#jet,#got,#let{
             text-transform: uppercase;
-            text-decoration: none;            
+            text-decoration: none;  
+            margin-right: 30px;   
+            margin-left:;  
+                
         }
         .fa{
             color: rgb(7, 116, 121);
@@ -23,14 +26,17 @@
         .headerContent{
             margin-right: 5px;
         }
-        .new{
+        /* .new{
             margin-right: 40px;
-        }
+        } */
         #move{
             margin-right: 40px;
         }
         #lot{
             margin-right: 40px;
+        }
+        .sat li{
+            display: inline-block;
         }
         
     </style>
@@ -49,11 +55,13 @@
     </header>
     <br>
     <body>
-        <a href="home.html" target="myFrame" id="hello" class="new">home</a>
-        <a href="techStack.html" target="myFrame" id="get" class="new">techstackK</a>
-        <a href="project.html" target="myFrame" id="jet" class="new">project</a>
-        <a href="education.html" target="myFrame" id="got" class="new">education</a>
-        <a href="aboutMe.html" target="myFrame" id="let" class="new">about me</a><br><br>
+    <ul class="sat">
+        <li><a href="home.html" target="myFrame" id="hello" class="new">home</a></li>
+        <li><a href="techStack.html" target="myFrame" id="get" class="new">techstackK</a></li>
+        <li><a href="project.html" target="myFrame" id="jet" class="new">project</a></li>
+        <li><a href="education.html" target="myFrame" id="got" class="new">education</a></li>
+        <li><a href="aboutMe.html" target="myFrame" id="let" class="new">about me</a></li><br><br>
+    </ul>
     </body>  
     <footer>
         <iframe width="570px" height="410px" src="home.html" name="myFrame"></iframe><br>
